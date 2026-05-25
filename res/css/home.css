@@ -74,6 +74,7 @@ code {
   border: gray solid 1px;
   overflow: hidden;
   background-color: rgba(128, 128, 128, 0.5);
+  user-select: text;
 }
 
 code a {
