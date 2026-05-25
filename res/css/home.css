@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'dead_stock';
+    src: url('/res/font/dead-stock.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'goia';
+    src: url('/res/font/goia-regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'facinate';
+    src: url('/res/font/Fascinate-Regular.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    background-color: black;
+    font-family: goia;
+    font-style: normal;
+    font-size: 1.1rem;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    font-size: 2rem;
+    text-align: center;
+    align-content: center;
+    font-family: "dead_stock";
+    background-color: #ffff05;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+@media (max-width: 500px) {
+  main {
+    grid-template-columns: 100%;
+  }
+}
+
+video {
+    border-radius: 10px;
+    align-self: center;
+    width: 100%;
+}
+
+.section_title {
+    font-family: 'facinate';
+    font-size: 2rem;
+    margin: 0;
+}
+
+.zone {
+    background-color: #ffff05;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    transition-duration: 500ms;
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+code {
+  white-space: pre-line;
+  /*margin: 5px;*/
+  padding: 5px;
+  border-radius: 10px;
+  border: gray solid 1px;
+  overflow: hidden;
+  background-color: rgba(128, 128, 128, 0.5);
+}
+
+code a {
+    color: inherit;
+}
+
+a.button {
+    text-decoration: underline;
+    color: white;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    transition-duration: 500ms;
+}
+
+a.button:hover {
+    color: #ffff05;
+}
+
+.insta-profile {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(
+        45deg,
+        #f09433,
+        #e6683c,
+        #dc2743,
+        #cc2366,
+        #bc1888
+    );
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    width: fit-content;
+    display: flex;
+    align-self: center;
+}
+
+.pp {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
