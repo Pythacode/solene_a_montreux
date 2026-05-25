@@ -6,7 +6,7 @@ Je me permets de vous contacter car je pense sincèrement que Solène Petit--Fru
 
 Son humour, son univers et son talent méritent d'être partagés avec le public du festival. Je suis convaincu(e) que sa présence serait une vraie valeur ajoutée à la programmation.
 
-Elle est déjà suivie par au moins de nombreux follower et son sketch "CPE en milieux hostile" fait fureur sur les réseaux.
+Elle est déjà suivie par au moins de nombreux followers et son sketch "CPE en milieux hostile" fait fureur sur les réseaux.
 Vous pourrez la retrouver sur Instagram (https://www.instagram.com/solene.petitfrulio/) et découvrir son sketch sur solene-a-montreux.nathanaelle.org.
 
 Auriez-vous la possibilité d'étudier sa candidature pour une prochaine édition ?
