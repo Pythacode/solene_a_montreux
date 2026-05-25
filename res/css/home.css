@@ -46,6 +46,9 @@ main {
         grid-template-columns: 100%;
         height: auto;
     }
+    .container {
+        flex-direction:column;
+    }
 }
 
 video {
@@ -106,8 +109,6 @@ a.button:hover {
 }
 
 .insta-profile {
-    display: flex;
-    flex-direction: column;
     background: linear-gradient(
         45deg,
         #f09433,
@@ -116,16 +117,30 @@ a.button:hover {
         #cc2366,
         #bc1888
     );
+}
+
+.book-link {
+    background-color : #38363F;
+}
+
+.insta-profile,
+.book-link {
+    display: flex;
+    flex-direction: column;
     padding: 10px;
     border-radius: 10px;
     width: fit-content;
     color: white;
     text-decoration: none;
+}
+
+.container {
+    display:flex;
     align-self:center;
+    gap:10px
 }
 
 footer {
-    width: 100%;
     display: flex;
     align-content: center;
     background-color:#ffff05;
